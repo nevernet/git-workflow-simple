@@ -1,12 +1,12 @@
-# 蝴蝶GIT工作流
+# GIT 简化工作流
 
 ## 1.分布式仓库:
-![](http://gitlab.hd.com/qinx/git-workflow/raw/master/git-workflow/repository.png)
+![](https://github.com/nevernet/git-workflow-simple/raw/master/git-workflow/repository.png)
 
 每个人本地的git都是一个仓库，每次在`git push/pull`的时候跟服务器进行同步。
 
 ## 2.工作流
-![](http://gitlab.hd.com/qinx/git-workflow/raw/master/git-workflow/git-workflow.png)
+![](https://github.com/nevernet/git-workflow-simple/raw/master/git-workflow/git-workflow.png)
 
 1. 默认情况下，初始化的时候只有一个`master`分支。 
 2. `git checkout -b develop` 创建一个新develop分支。所有的开发都在这个分支上操作
