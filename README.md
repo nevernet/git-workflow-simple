@@ -17,7 +17,7 @@
 2. bugfix分支：修复bug用，一般情况是在release分支上checkout出来，用于临时修复release上的bug
 
 ## 3.合并
-![](http://gitlab.hd.com/qinx/git-workflow/raw/master/git-workflow/git-merge.png)
+![](https://github.com/nevernet/git-workflow-simple/raw/master/git-workflow/git-merge.png)
 
 合同的时候带上参数`--no-ff`， 这样可以保留提交的记录.
 
