@@ -26,21 +26,28 @@
 1. 初始化一个项目
 mkdir gitdemo
 cd gitdemo
-```git
+
+
+```bash
+#初始化相关
 
 git init
 git remote add githd git@gitlab.hd.com:qinx/git-demo.git # 推荐使用ssh方式操作git
 
 # 查看git remote
 git remote -v
+```
 
+```bash
 # 完成一次提交, 初始化
 touch README.md
 git add README.md
 git commit -am 'added README'
 git push -u githd master
+```
+ 
 
-
+```bash
 # 创建develop 分支
 git branch -vv  #查看当前分支
 git checkout -b develop
@@ -49,11 +56,17 @@ git add test.js
 git commit -am 'added test.js'
 git push -u githd develop
 # or git push
+```
+ 
 
+```bash
 # 发布版本1.0 
 git checkout -b release-1.0.0
 ./package_updated.sh
+```
+ 
 
+```bash
 # 修复线上发布的版本bug
 
 git checkout release-1.0.0
