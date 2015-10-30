@@ -24,12 +24,11 @@
 ## 4.现场演示
 
 1. 初始化一个项目
-mkdir gitdemo
-cd gitdemo
-
 
 ```bash
 #初始化相关
+mkdir gitdemo
+cd gitdemo
 
 git init
 git remote add githd git@gitlab.hd.com:qinx/git-demo.git # 推荐使用ssh方式操作git
